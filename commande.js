@@ -28,3 +28,7 @@ console.log("Type du nom :", typeof nom_client );
 console.log("Type du prix :", typeof prix_unitaire );
 console.log("Type de la quantité :", typeof quantite);
 
+const remise = 10000;
+const total_remise =  montant_final_payer - remise;
+console.log("Remise : ", remise ,"FCFA" );
+console.log("TOTAL APRES REMISE : ", total_remise ,"FCFA" );
