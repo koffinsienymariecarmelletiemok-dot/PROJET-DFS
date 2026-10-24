@@ -3,3 +3,4 @@ const prix_de_cahier= 1500;
 const prix_de_stylo= 500;
 const quantite_cahier=4;
 const quantite_stylo=3;
+const montant_cahier=prix_de_cahier*quantite_cahier
